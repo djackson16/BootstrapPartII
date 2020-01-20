@@ -7,6 +7,7 @@ header {
     justify-content: space-between;
 }
 
+  /* Nav Styles */
 .nav-link {
     color: 000000;
 }
@@ -14,6 +15,50 @@ header {
 .nav-link li a:hover {
     color: #9583D5;
 }
+
+.nav-link {
+    color: #9583D5;
+}
+
+/* Button Styles */
+.button {
+    border-radius: 4px;
+    background-color: #9583D5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 25px;
+    opacity: 1;
+    right: 0;
+    background-color: #9583D5;
+  }
+
+
 
   /*Footer info */
 
