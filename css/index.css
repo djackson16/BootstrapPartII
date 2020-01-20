@@ -1,0 +1,57 @@
+header {
+    background-image: linear-gradient(#E6DFFF, white);
+    display: flex;
+    background-color: #C6C6C6;
+    padding: 30px 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: 000000;
+}
+
+.nav-link li a:hover {
+    color: #9583D5;
+}
+
+  /*Footer info */
+
+  footer {
+    font-family: 'Raleway', sans-serif; 
+    color: #9583D5;
+    background-image: linear-gradient(white, #E6DFFF);
+}  
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Instagram */
+   .fa-instagram {
+    background: #f2003c;
+    color: white;
+  }
